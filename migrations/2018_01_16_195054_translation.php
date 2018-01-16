@@ -29,10 +29,6 @@ class Translation extends Migration
             $table->string('translation');
             $table->timestamps();
             $table->softDeletes();
-
-            $table->foreign('translation_source_id')
-                ->references('translation_source_id')
-                ->on('translation_source');
         });
     }
 
