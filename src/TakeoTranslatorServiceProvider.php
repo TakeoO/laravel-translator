@@ -5,10 +5,10 @@ namespace Takeoo\Translator;
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Class TakeooServiceServiceProvider
+ * Class TakeooTranslatorServiceProvider
  * @package Takeoo\Service
  */
-class TakeooServiceServiceProvider extends ServiceProvider
+class TakeooTranslatorServiceProvider extends ServiceProvider
 {
     /**
      * @return void
