@@ -15,7 +15,7 @@ class TakeooServiceServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__ . '/../Migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/../migrations');
     }
 
     public function register()
