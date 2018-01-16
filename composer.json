@@ -1,0 +1,19 @@
+{
+  "name": "takeoo/laravel-translator",
+  "description": "Lightweight translator & localization for laravel application!",
+  "keywords": [
+    "laravel",
+    "translator",
+    "localization"
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "laravel/framework": ">=5.1",
+    "takeoo/laravel-service-provider": "0.2.2",
+  },
+  "autoload": {
+    "psr-4": {
+      "Takeoo\\Translator\\": "src/"
+    }
+  }
+}
